@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lista de Tarefas</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Página inicial</title>
+  <link rel="stylesheet" href="style.css">n
 </head>
-
 <body>
   <div class="container">
-    <h1>Lista de Tarefas</h1>
-    <p>Adicione suas tarefas!</p>
-    <input type="text" id="inputTarefa" placeholder="Digite a sua Tarefa">
+    <h1>Boas vindas!</h1>
+    <p>Vamos personalizar sua saudação usando JavaScript!</p>
+    <div class="saudacao" id="mensagemSaudacao"> Olá, visitante!</div>
+  <button onclick="mudarnome()">personalizarsaudacao</button>
+</div>
 
-    <button onclick="adicionarTarefa()">Adicionar Tarefa</button>
-    <button onclick="limparLista()" class="botao_lista">Limpar tudo</button>
-    <p id="mensagem"></p>
-    <ul id="listaTarefas"></ul>
-
-  </div>
-
-  <script src="script.js"></script>
-  <script src="conceito.js"></script>
+  <script>
+    function mudarnome(){
+        let nome = "Gerlane"
+        document.getElementById
+        ("mensagemSaudacao").textContent =
+         "Olá, " +nome
+    }
+    </script>
 </body>
-
 </html>

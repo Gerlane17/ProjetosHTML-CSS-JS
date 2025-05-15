@@ -5,31 +5,27 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #483D8B;
+    background-color: #331F19; /* Fundo neutro */
 }
-
 .container {
     text-align: center;
-    background-color: #B0C4DE;
+    background-color: #CBBBA7;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(71, 5, 113, 0.376);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 90%;
     max-width: 600px;
-    border: 2px solid #363636;
+    border: 2px solid #8B7D70;
 }
-
 h1 {
-    color: #363636;
+    color: #331F19;
 }
-
 p {
-    color: #363636;
+    color: #331F19;
     font-size: 1.1em;
 }
-
 button {
-    background-color: #483D8B;
+    background-color: #60041A;
     color: #F4F0EA;
     padding: 10px 20px;
     border: none;
@@ -39,86 +35,6 @@ button {
     transition: background-color 0.3s ease;
     margin-top: 10px;
 }
-
 button:hover {
-    background-color: #836FFF;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 20px;
-}
-
-ul li {
-    background-color: #F4F0EA;
-    color: #363636;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(71, 5, 113, 0.376);
-}
-
-/* Estilo para o campo de entrada */
-input[type="text"] {
-    padding: 10px;
-    width: 80%;
-    max-width: 500px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 2px solid #363636;
-    border-radius: 5px;
-    font-size: 1em;
-    box-shadow: inset 0 2px 4px rgba(71, 5, 113, 0.376);
-    outline: none;
-    transition: border-color 0.3s ease;
-}
-
-input[type="text"]:focus {
-    border-color: #363636;
-    box-shadow: inset 0 2px 4px rgba(71, 5, 113, 0.376);
-}
-
-button.remover {
-    background-color: #e32525;
-    color: #F4F0EA;
-    padding: 5px 5px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 0.6em;
-    margin-left: 5px;
-    transition: background-color 0.3s ease;
-}
-
-button.remover:hover {
-    background-color: #d46767;
-}
-
-button.editar {
-    background-color: #2368d8;
-    color: #F4F0EA;
-    padding: 5px 5px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 0.6em;
-    margin-left: 5px;
-    transition: background-color 0.3s ease;
-}
-
-button.editar:hover {
-    background-color: #6b93f0;
-}
-
-.botao_lista {
     background-color: #A34743;
 }
-
-.botao_lista:hover {
-    background-color: #60041A;
-    color: #F4F0EA;
-}
-
-/*#28a745
-/*#a34743 
